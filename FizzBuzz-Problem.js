@@ -19,7 +19,7 @@ function fizzbuzz(num) {
     var msg = "";
     if (!(num % 3)) msg += "Fizz";
     if (!(num % 5)) msg += "Buzz";
-    console.log(msg || i);
+    console.log(msg || num);
 }
 
 fizzbuzz(45);
